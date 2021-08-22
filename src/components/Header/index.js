@@ -250,7 +250,7 @@ const Header = () => {
   return (
     <Headers ref={ref}>
       <Logo>
-        <img src={logo} alt="CodeBucks" />
+        <img src={logo} alt="KHOJ" />
       </Logo>
       <Nav>
         <a href="#home">About Us</a>
