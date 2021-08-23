@@ -8,32 +8,32 @@ const Card = ({ name, text, image }) => {
     <div className="card-wrapper">
       <div className="card">
         <div className="card-image">
-          <img src={Avatar} />
+          <img src={Avatar} alt="founder" />
         </div>
         <ul className="social-icons">
           <li>
-            <a href="#">
+            <a href="https://www.google.com/">
               <span className="fa">
                 <FaFacebook />
               </span>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://www.google.com/">
               <span className="fa">
                 <FaInstagram />
               </span>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://www.google.com/">
               <span className="fa">
                 <FaTwitter />
               </span>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://www.google.com/">
               <span className="fa">
                 <FaLinkedin />
               </span>
