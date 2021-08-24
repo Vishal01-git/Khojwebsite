@@ -191,7 +191,7 @@
   bottom: 0;
 }
 
-.carousel .slick-dots {
+/* .carousel .slick-dots {
   bottom: -10vw;
 }
 
@@ -259,7 +259,7 @@
 
 .carousel .slick-prev {
   left: -55px;
-}
+} */
 @media screen and (max-width: 650px) {
   .carousel .slick-prev,
   .carousel .slick-next {
