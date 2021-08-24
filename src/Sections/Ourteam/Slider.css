@@ -4,6 +4,8 @@
 }
 .teambg {
   background: url("../../assets/teambg.svg") no-repeat;
+  position: relative;
+  top: 5rem;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -14,7 +16,7 @@
   text-align: center;
   margin-top: 1.5rem;
   position: relative;
-  top: -50px;
+  top: -100px;
 }
 #title::before {
   content: "";
@@ -27,7 +29,10 @@
   /* or 100px */
   border-bottom: 2px solid var(--purple);
 }
-
+.container {
+  position: relative;
+  top: -3rem;
+}
 .card-wrapper {
   position: relative;
   width: 100%;
@@ -238,7 +243,7 @@
   opacity: 1;
 } */
 
-.carousel .slick-prev,
+/* .carousel .slick-prev,
 .carousel .slick-next {
   width: 50px;
   height: 50px;
@@ -266,10 +271,10 @@
 
 .carousel .slick-prev {
   left: -55px;
-}
+} */
 @media screen and (max-width: 650px) {
-  .slick-arrow .slick-prev,
-  .slick-arrow .slick-next {
+  .carousel .slick-prev,
+  .carousel .slick-next {
     width: 0;
     height: 0;
     left: 0;
@@ -279,6 +284,13 @@
   .teambg {
     position: relative;
     top: -10rem;
+  }
+  .card-wrapper {
+    width: 60%;
+    padding: 0;
+  }
+  #title {
+    top: -7rem;
   }
 }
 @media only screen and (max-width: 1000px) and (min-width: 650px) {

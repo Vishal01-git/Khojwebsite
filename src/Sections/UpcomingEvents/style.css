@@ -57,9 +57,6 @@
   color: #0a0b10;
   font-size: calc(1rem + 1.5vw);
   text-align: center;
-  margin-top: 1.5rem;
-  position: relative;
-  top: -50px;
 }
 #title::before {
   content: "";

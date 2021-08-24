@@ -24,8 +24,8 @@ function Ourteam() {
   }
   return (
     <div className="teambg">
+      <h1 id="title">Our Founders</h1>
       <div className="container mt-5 carousel">
-        <h1 id="title">Our Founders</h1>
         <Slider {...settings}>
           <Card
             image="YOUROWNPHOTO"
