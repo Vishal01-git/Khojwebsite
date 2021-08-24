@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+.footer-distributed {
+  background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6a82fb,
+    #fc5c7d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6a82fb,
+    #fc5c7d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  position: relative;
+  top: 15rem;
+  text-align: left;
+  font: bold 16px;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left h3 {
+  color: #ffffff;
+  font-size: 40px;
+  margin: 0;
+}
+#k {
+  color: #004bef;
+  font-family: "Permanent Marker", cursive !important;
+}
+#h {
+  color: #f60c12;
+  font-family: "Permanent Marker", cursive !important;
+}
+#o {
+  color: #000;
+  font-family: "Permanent Marker", cursive !important;
+}
+#j {
+  color: #009f00;
+  font-family: "Permanent Marker", cursive !important;
+}
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  font-size: 15px;
+  margin: 20px 0 12px;
+  padding-right: 100px;
+}
+.footer-company-name {
+  font-size: 14px;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+}
+
+.footer-distributed .footer-center a {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 12px;
+  vertical-align: middle;
+  margin: 0;
+}
+
+/* Footer Right */
+.footer-right h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+}
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.button {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  z-index: 10;
+  color: white;
+}
+.blurred {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.blurred::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background-color: black;
+  border-radius: 100%;
+  transition: 0.2s;
+}
+.blurred::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  background-color: black;
+  border-radius: 100%;
+  transition: 0.2s;
+}
+.blurred > span:nth-of-type(1) {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  background-color: black;
+  border-radius: 100%;
+  transition: 0.2s;
+}
+.blurred > span:nth-of-type(2) {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  background-color: black;
+  border-radius: 100%;
+  transition: 0.2s;
+}
+.button:hover .blurred::before {
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+}
+.button:hover .blurred::after {
+  width: 15px;
+  height: 15px;
+  top: 30px;
+  left: 45px;
+}
+.button:hover .blurred > span:nth-of-type(1) {
+  width: 30px;
+  height: 30px;
+  top: -10px;
+  left: -20px;
+}
+.button:hover > .blurred > span:nth-of-type(2) {
+  width: 25px;
+  height: 25px;
+  top: 40px;
+  left: -20px;
+}
+
+/* .footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+} */
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+    border-radius: 0;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+@media (max-width: 650px) {
+  .footer-distributed {
+    top: 0rem;
+  }
+  .footer-distributed .footer-links {
+    padding-right: 0px;
+  }
+}

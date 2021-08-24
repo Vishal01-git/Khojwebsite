@@ -9,6 +9,8 @@ import Services from "../Sections/Services/index";
 import styled from "styled-components";
 import UpcomingEvents from "../Sections/UpcomingEvents/index";
 import Ourteam from "../Sections/Ourteam/index";
+import { NewsLetter } from "../components/Newsletter";
+import Footer from "../components/Footer";
 
 const Container = styled.div`
   display: flex;
@@ -26,8 +28,8 @@ const Home = () => {
       <Services />
       <UpcomingEvents />
       <Ourteam />
-      {/* <Testimonials />
-      <Contact /> */}
+      <NewsLetter />
+      <Footer />
     </Container>
   );
 };
