@@ -2,7 +2,7 @@ import React from "react";
 import "../Card/Slider.css";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
-const Card = ({ name, text, image }) => {
+const Card = ({ name, text, image, facebook, insta, twitter, linkedin }) => {
   const Avatar = require(`../../images/${image}.jpg`).default;
   return (
     <div className="card-wrapper">
@@ -12,28 +12,28 @@ const Card = ({ name, text, image }) => {
         </div>
         <ul className="social-icons">
           <li>
-            <a href="https://www.google.com/">
+            <a href={facebook} target="_blank" rel="noreferrer">
               <span className="fa">
                 <FaFacebook />
               </span>
             </a>
           </li>
           <li>
-            <a href="https://www.google.com/">
+            <a href={insta} target="_blank" rel="noreferrer">
               <span className="fa">
                 <FaInstagram />
               </span>
             </a>
           </li>
           <li>
-            <a href="https://www.google.com/">
+            <a href={twitter} target="_blank" rel="noreferrer">
               <span className="fa">
                 <FaTwitter />
               </span>
             </a>
           </li>
           <li>
-            <a href="https://www.google.com/">
+            <a href={linkedin} target="_blank" rel="noreferrer">
               <span className="fa">
                 <FaLinkedin />
               </span>
