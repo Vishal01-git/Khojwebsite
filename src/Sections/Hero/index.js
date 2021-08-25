@@ -200,7 +200,7 @@ const CTA = styled.button`
     width: 1.3rem;
   }
   @media only screen and (max-width: 48em) {
-    padding: 0.2rem 1rem;
+    padding: 0.4rem 1rem;
   }
   &:hover {
     transform: scale(1.1);
