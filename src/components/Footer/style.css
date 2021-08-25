@@ -96,6 +96,7 @@
 .footer-right h4 {
   font-weight: 700;
   font-size: 20px;
+  padding-left: 2rem;
   color: #000;
 }
 .footer-distributed .footer-right {
@@ -107,11 +108,14 @@
   position: relative;
   width: 50px;
   height: 50px;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-right: 10px;
 }
 i {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -239,5 +243,12 @@ i {
   }
   .footer-distributed .footer-links {
     padding-right: 0px;
+  }
+  .footer-right h4 {
+    padding-left: 0;
+    text-align: center;
+  }
+  .button {
+    margin-top: 20px;
   }
 }

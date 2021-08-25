@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaTelegram, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
+
 const Footer = () => {
   return (
     <footer className="footer-distributed">
@@ -70,9 +72,14 @@ const Footer = () => {
       <div className="footer-right">
         <h4>Contact Us</h4>
         <div className="button">
-          <a href="">
+          <a
+            href="https://t.me/officialkhoj"
+            alt="Khoj"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i>
-              <FaFacebook />
+              <FaTelegram />
             </i>
           </a>
           <div className="blurred">
@@ -81,9 +88,48 @@ const Footer = () => {
           </div>
         </div>
         <div className="button">
-          <a href="">
+          <a
+            href="https://www.instagram.com/officialkhoj/"
+            alt="Khoj"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i>
-              <FaFacebook />
+              <FaInstagram />
+            </i>
+          </a>
+
+          <div className="blurred">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div className="button">
+          <a
+            href="https://www.linkedin.com/in/khoj-find-ur-real-you-424709204/"
+            alt="Khoj"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i>
+              <FaLinkedin />
+            </i>
+          </a>
+
+          <div className="blurred">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div className="button">
+          <a
+            href="mailto: khoj.lpu.official@gmail.com"
+            alt="Send Email"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i>
+              <FiMail />
             </i>
           </a>
 
