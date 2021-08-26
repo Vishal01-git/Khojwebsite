@@ -19,7 +19,7 @@ const Footer = () => {
           beatae doloremque, nesciunt repudiandae exercitationem.
         </p>
 
-        <p className="footer-company-name">
+        <p className="footer-company-name-left">
           All right reserved Copyright © 2021
         </p>
       </div>
@@ -138,6 +138,9 @@ const Footer = () => {
             <span></span>
           </div>
         </div>
+        <p className="footer-company-name-right">
+          All right reserved Copyright © 2021
+        </p>
       </div>
     </footer>
   );

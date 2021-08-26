@@ -1,16 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 .footer-distributed {
-  background: #fc5c7d; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #6a82fb,
-    #fc5c7d
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #6a82fb,
-    #fc5c7d
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #c9d7f7;
 
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
@@ -38,8 +28,9 @@
 /* The company logo */
 
 .footer-distributed .footer-left h3 {
-  color: #ffffff;
   font-size: 40px;
+  position: relative;
+  top: -7px;
   margin: 0;
 }
 #k {
@@ -61,13 +52,19 @@
 /* Footer links */
 
 .footer-distributed .footer-links {
-  color: #ffffff;
+  color: #16194f;
   font-size: 15px;
   margin: 20px 0 12px;
-  padding-right: 100px;
+  padding-right: 125px;
 }
-.footer-company-name {
+.footer-company-name-left {
   font-size: 14px;
+  color: #6a6d9e;
+}
+.footer-company-name-right {
+  display: none;
+  font-size: 14px;
+  color: #6a6d9e;
 }
 
 /* Footer Center */
@@ -77,14 +74,14 @@
 }
 
 .footer-distributed .footer-center h4 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 20px;
-  color: #000;
+  color: #554dde;
 }
 
 .footer-distributed .footer-center a {
   display: inline-block;
-  color: #ffffff;
+  color: #16194f;
   font-weight: 400;
   font-size: 12px;
   vertical-align: middle;
@@ -93,10 +90,10 @@
 
 /* Footer Right */
 .footer-right h4 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 20px;
   padding-left: 2rem;
-  color: #000;
+  color: #554dde;
 }
 .footer-distributed .footer-right {
   width: 20%;
@@ -138,7 +135,7 @@ i {
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  background-color: black;
+  background-color: #16194f;
   border-radius: 100%;
   transition: 0.2s;
 }
@@ -149,7 +146,7 @@ i {
   height: 50px;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: #16194f;
   border-radius: 100%;
   transition: 0.2s;
 }
@@ -159,7 +156,7 @@ i {
   height: 50px;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: #16194f;
   border-radius: 100%;
   transition: 0.2s;
 }
@@ -169,7 +166,7 @@ i {
   height: 50px;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: #16194f;
   border-radius: 100%;
   transition: 0.2s;
 }
@@ -249,5 +246,14 @@ i {
   }
   .button {
     margin-top: 20px;
+  }
+
+  .footer-company-name-left {
+    display: none;
+  }
+  .footer-company-name-right {
+    position: relative;
+    top: 4rem;
+    display: block;
   }
 }
