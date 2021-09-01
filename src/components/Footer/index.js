@@ -73,7 +73,7 @@ const Footer = () => {
         <h4>Contact Us</h4>
         <div className="button">
           <a
-            href="https://t.me/officialkhoj"
+            href="https://t.me/officialkhoj/"
             alt="Khoj"
             target="_blank"
             rel="noreferrer"

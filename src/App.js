@@ -1,9 +1,8 @@
 import { GlobalStyle } from "./globalStyles";
 import { lazy, Suspense } from "react";
-
+import { Route } from "react-router";
+import Aboutus from "./Pages/Aboutus";
 const Home = lazy(() => import("./Pages/Home"));
-const Header = lazy(() => import("./components/Header/index"));
-// const Footer = lazy(() => import("./components/Footer/index"));
 const ScrollToTop = lazy(() => import("./components/ScrollToTop/index"));
 
 function App() {
@@ -11,11 +10,9 @@ function App() {
     <>
       <Suspense fallback={null}>
         <GlobalStyle />
-        {/* Hi There! */}
         <ScrollToTop />
-        <Header />
-        <Home />
-        {/* <Footer /> */}
+        <Route exact path="/" component={Home} />
+        <Route exact path="/Aboutus" component={Aboutus} />
       </Suspense>
     </>
   );

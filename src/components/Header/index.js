@@ -1,6 +1,7 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import logo from "../../assets/logokhoj.svg";
 
@@ -253,7 +254,7 @@ const Header = () => {
         <img src={logo} alt="KHOJ" />
       </Logo>
       <Nav>
-        <a href="#home">About Us</a>
+        <Link to="/Aboutus">About us</Link>
         <a href="#about">Our team</a>
         <a href="#services">Events</a>
         <a href="#contact">
@@ -264,7 +265,7 @@ const Header = () => {
         <span></span>
       </HamburgerBtn>
       <MobileMenu clicked={click}>
-        <a href="#home">About Us</a>
+        <Link to="/Aboutus">About us</Link>
         <a href="#about">Our team</a>
         <a href="#services">Events</a>
         <a href="#contact">

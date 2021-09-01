@@ -29,22 +29,22 @@ function Ourteam() {
       <div className="container mt-5 carousel">
         <Slider {...settings}>
           <Card
-            image="YOUROWNPHOTO"
+            image="Subham Kumar Pandey"
             name="Subham Kumar Pandey"
             text="CEO"
             facebook="#"
-            insta="#"
-            twitter="#"
-            linkedin="#"
+            insta="https://www.instagram.com/s_u_b_h_a_m_p/"
+            twitter="https://twitter.com/Subhamp07913431"
+            linkedin="https://www.linkedin.com/in/subham-lpu/"
           />
           <Card
-            image="YOUROWNPHOTO"
+            image="Harsh Sharma"
             name="Harsh Sharma"
             text="Co-Ceo"
-            facebook="#"
-            insta="#"
+            facebook="https://m.facebook.com/100009645272913/"
+            insta="https://www.instagram.com/sharma.__harsh/"
             twitter="#"
-            linkedin="#"
+            linkedin="https://www.linkedin.com/in/harsh-sharma-916863192"
           />
           <Card
             image="SHIV KUMAR VERMA"
@@ -109,6 +109,15 @@ function Ourteam() {
             insta="#"
             twitter="#"
             linkedin="https://www.linkedin.com/in/siddhant-gaurav-481818178"
+          />
+          <Card
+            image="Aditya Raj Singh"
+            name="Aditya Raj Singh"
+            text="HR"
+            facebook="#"
+            insta="https://www.instagram.com/aditya.cena007/"
+            twitter="https://twitter.com/AdityaR97486371?s=08"
+            linkedin="https://www.linkedin.com/in/aditya-raj-singh-191b6b192/"
           />
           <Card
             image="Ashutosh Kumar Yadav"
