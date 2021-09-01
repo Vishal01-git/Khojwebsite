@@ -20,7 +20,7 @@ function AboutHero() {
             </svg>
           </div>
           <h2 className="Aboutus_hero_h2">
-            No one's called him Baby Buster since high school.
+            Our Complete journey step by step.
           </h2>
           <p className="Aboutus_hero_p">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odio
